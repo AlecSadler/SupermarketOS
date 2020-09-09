@@ -17,13 +17,9 @@ static volatile sig_atomic_t sigquit=0;
 static void handler (int signo) {             // handler segnali
 	if (signo==SIGQUIT) if (sighup==0){
 		sigquit=1;
-		printf("Catturato segnale SIGQUIT\n");
-		fflush(stdout);
 	}
 	if (signo==SIGHUP) if (sigquit==0){
 		sighup=1;
-		printf("Catturato segnale SIGHUP\n");
-		fflush(stdout);
 	}
 }
 
