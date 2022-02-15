@@ -1,5 +1,5 @@
 # Supermarket Simulator
-Progetto finale Laboratorio Sistemi Operativi 2020/21 - Università di Pisa
+## Progetto finale Laboratorio Sistemi Operativi 2020/21 - Università di Pisa
 
 Compile code and generate executable file:
 ```bash
@@ -15,4 +15,4 @@ make clean
 ```
 
 Try different configurations editind the config.txt file.
-At the end of the session lok the finalReport.log file whith analytics.
+At the end of the session look the finalReport.log file whith analytics.
