@@ -1,10 +1,18 @@
-# SupermarketOS
-Progetto SIstemi Operativi - Unipi (Light Version)
+# Supermarket Simulator
+Progetto finale Laboratorio Sistemi Operativi 2020/21 - Università di Pisa
 
-MakeFile targets:
+Compile code and generate executable file:
+```bash
+make compile
+```
+Launch a 25 seconds session of simulator with ./config.txt parameters:
+```bash
+make test
+```
+Clean directory from garbage files (.pid, .log, executable):
+```bash
+make clean
+```
 
-make compile: compile code and generate executable file
-
-make test: launch the executable passing test/config.txt as argument
-
-make clean: delete all the garbage files (log, pid and executable)
+Try different configurations editind the config.txt file.
+At the end of the session lok the finalReport.log file whith analytics.
